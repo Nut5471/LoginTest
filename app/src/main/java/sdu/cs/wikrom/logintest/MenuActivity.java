@@ -20,5 +20,4 @@ public class MenuActivity extends AppCompatActivity {
         getNameString = getIntent().getStringExtra("Name");
         nameTextView.setText("Welcome,"+getNameString + "เข้าสู่ระบบ");
     }//end onCreate
-
 }//end class
